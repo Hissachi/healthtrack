@@ -10,9 +10,9 @@ export default function Home() {
         </div>
       </header>
       <main className="grid grid-cols-4 gap-[32px] row-start-2 items-center sm:items-start bg-white m-10 p-8 border-2 border-gray-200 rounded-2xl shadow-md">
-        <form className="flex flex-col z-1">
+        <form className="flex flex-col z-1 p-4 border-1 rounded-md border-indigo-200">
           <div className="flex justify-center font-bold border-1 rounded-md border-indigo-200">DADOS PESSOAIS</div>
-          <div className="flex justify-center pb-3 font-extralight transform opacity-20">------------------------------</div>
+          <div className="p-2"></div>
           <input placeholder="Nome Completo" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="text"></input>
           <input placeholder="Idade" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
           <select className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" id="sexo">
@@ -27,9 +27,9 @@ export default function Home() {
           <input placeholder="Altura (em cm)" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
           <input placeholder="Peso (em g)" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
         </form>
-        <form className="flex flex-col z-1">
+        <form className="flex flex-col z-1 p-4 border-1 rounded-md border-red-200">
           <div className="flex justify-center font-bold border-1 rounded-md border-red-200">ATIVIDADE</div>
-          <div className="flex justify-center pb-3 font-extralight transform opacity-20">------------------------------</div>
+          <div className="p-2"></div>
           <select className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" id="treino">
             <option defaultValue=""disabled selected>Selecione o treino</option>
             <option value="treino-1">HIIT</option>
@@ -55,9 +55,9 @@ export default function Home() {
           </select>
           <input placeholder="Gasto Calórico (em kJ)" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
         </form>
-        <form className="flex flex-col z-1">
+        <form className="flex flex-col z-1 p-4 border-1 rounded-md border-yellow-200">
           <div className="flex justify-center font-bold border-1 rounded-md border-yellow-200">ALIMENTAÇÃO</div>
-          <div className="flex justify-center pb-3 font-extralight transform opacity-20">------------------------------</div>
+          <div className="p-2"></div>
           <input placeholder="Número de refeições por dia" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
           <input placeholder="Consumo de água diário (ml)" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
           <select className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" id="suplemento">
@@ -72,9 +72,9 @@ export default function Home() {
           </select>
           <input placeholder="Consumo Calórico (em kJ)" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
         </form>
-        <form className="flex flex-col z-1">
+        <form className="flex flex-col z-1 p-4 border-1 rounded-md border-purple-200">
           <div className="flex justify-center font-bold border-1 rounded-md border-purple-200">SAÚDE GERAL</div>
-          <div className="flex justify-center pb-3 font-extralight transform opacity-20">------------------------------</div>
+          <div className="p-2"></div>
           <input placeholder="Tempo de sono diário (horas)" className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="number"></input>
           <select className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" id="sono">
             <option defaultValue=""disabled selected>Qualidade do sono</option>
@@ -94,6 +94,7 @@ export default function Home() {
       </main>
       
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        <div className="flex w-150 h-30 items-center justify-center bg-gray-200 rounded-md p-4 shadow-2xl">Footer</div>
       </footer>
     </div>
   );
