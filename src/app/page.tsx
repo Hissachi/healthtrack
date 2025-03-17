@@ -95,9 +95,6 @@ export default async function Home() {
       </main>
       
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <div className="flex w-50 h-40 items-center justify-center bg-gray-200 rounded-md p-4 shadow-2xl">
-          <img src="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/422615142_3720380921551918_1274001223824699736_n.jpg?ccb=11-4&oh=01_Q5AaIXm1xeme5BNsrLEg-cyBdpCwHQ0HuhpBPhdR3ZIrSQOQ&oe=67E32657&_nc_sid=5e03e0&_nc_cat=105" alt="Footer Image" className="w-full h-full object-cover rounded-md"></img>
-        </div>
       </footer>
     </div>
   );
