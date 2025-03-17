@@ -9,7 +9,7 @@ export default function Home() {
           Monitoramento de Saúde
         </div>
       </header>
-      <main className="grid grid-cols-4 gap-[32px] row-start-2 items-center sm:items-start bg-white m-10 p-8 border-2 border-gray-200 rounded-2xl shadow-md">
+      <main className="grid grid-cols-4 gap-[28px] row-start-2 items-center sm:items-start bg-white m-10 p-8 border-2 border-gray-200 rounded-2xl shadow-md">
         <form className="flex flex-col z-1 p-4 border-1 rounded-md border-indigo-200">
           <div className="flex justify-center font-bold border-1 rounded-md border-indigo-200">DADOS PESSOAIS</div>
           <div className="p-2"></div>
@@ -95,7 +95,7 @@ export default function Home() {
       
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <div className="flex w-50 h-40 items-center justify-center bg-gray-200 rounded-md p-4 shadow-2xl">
-          <img src="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/422615142_3720380921551918_1274001223824699736_n.jpg?ccb=11-4&oh=01_Q5AaIXm1xeme5BNsrLEg-cyBdpCwHQ0HuhpBPhdR3ZIrSQOQ&oe=67E32657&_nc_sid=5e03e0&_nc_cat=105" alt="Footer Image" className="w-full h-full object-cover rounded-md"></img>
+          
         </div>
       </footer>
     </div>
