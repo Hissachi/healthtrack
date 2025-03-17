@@ -9,12 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< Updated upstream
-=======
-    "mongodb": "^6.14.2",
-    "mongoose": "^8.12.1",
-    "next": "15.2.2",
->>>>>>> Stashed changes
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "next": "15.2.2"
